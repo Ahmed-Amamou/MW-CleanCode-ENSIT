@@ -16,7 +16,12 @@ type DtaRcrd102 = {
   ghdkfkkk: number;
 }
 
-
+//Answer:
+type: Student ={
+  firstName: string;
+  lastName: string;
+  age: number 
+}
 
 //Q3: What we should call our function that return User?
 getUserData();
