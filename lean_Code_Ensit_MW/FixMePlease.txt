@@ -22,6 +22,7 @@ type: Student ={
   lastName: string;
   age: number ;
 }
+----------------------------------------------------------------------------------------------------------------
 
 //Q3: What we should call our function that return User?
 getUserData();
@@ -30,17 +31,25 @@ getUserInformation();
 
 //Answer:
 getUser();
+----------------------------------------------------------------------------------------------------------------
 
 //Q4: We want to check if that our student yearly grade is acceptable for any country Education System (in Tunisia <20, in USA 100)
 isGradeBelowMax(grade, 20)
 //Answer:
 MAX_ACCEPTED_GRADE=20;
 isGradeBelowMax(grade, MAX_ACCEPTED_GRADE);
+----------------------------------------------------------------------------------------------------------------
 
 //Q5: I know you got the idea of variable names but I want it to be clear for anyone around the world.
 Student s = new Student();
 Grade g = new Grade();
 Professor p = new Professor();
+
+//Answer:
+student = new Student()
+grade = new Grade()
+professor = new Professor()
+----------------------------------------------------------------------------------------------------------------
 
 //Q6: Don't you think we are overdoing it???
 Type Student {
