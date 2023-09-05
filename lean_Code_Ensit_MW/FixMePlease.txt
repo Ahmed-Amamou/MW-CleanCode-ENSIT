@@ -3,12 +3,20 @@ function imafunction(a1: Number, a2: Number, a3: Number): boolean {
   return a2 <= a1 && a1 <= a3;
 }
 
+//Answer:
+function isBetweenNumbers(firstNumber: number, secondNumber: number, thirdNumber: number): boolean {
+  return firstNumber > secondNumber && firstNumber < thirdNumber;
+}
+----------------------------------------------------------------------------------------------------------------
+
 //Q2: We want to have student type with some information. (If it's not pronounceable how you will say it)
 type DtaRcrd102 = {
   xvcnxjv: String;
   hfdsjlfh: String;
   ghdkfkkk: number;
 }
+
+
 
 //Q3: What we should call our function that return User?
 getUserData();
