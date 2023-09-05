@@ -58,6 +58,15 @@ studentLastName: String;
 StudentId: Number;
 }
 
+//Answer:
+Type Student {
+firstName: String;
+lastName: String;
+id: Number;
+}
+
+----------------------------------------------------------------------------------------------------------------
+
 //Q7: What we can do to avoid giving unappropriat gender value? (Hint enum)
 Type Student {
 firstName: String;
