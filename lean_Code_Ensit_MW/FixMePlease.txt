@@ -20,13 +20,16 @@ type DtaRcrd102 = {
 type: Student ={
   firstName: string;
   lastName: string;
-  age: number 
+  age: number ;
 }
 
 //Q3: What we should call our function that return User?
 getUserData();
 getUser();
 getUserInformation();
+
+//Answer:
+getUser(); 
 
 //Q4: We want to check if that our student yearly grade is acceptable for any country Education System (in Tunisia <20, in USA 100)
 isGradeBelowMax(grade, 20)
