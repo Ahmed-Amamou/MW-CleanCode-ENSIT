@@ -29,10 +29,13 @@ getUser();
 getUserInformation();
 
 //Answer:
-getUser(); 
+getUser();
 
 //Q4: We want to check if that our student yearly grade is acceptable for any country Education System (in Tunisia <20, in USA 100)
 isGradeBelowMax(grade, 20)
+//Answer:
+MAX_ACCEPTED_GRADE=20;
+isGradeBelowMax(grade, MAX_ACCEPTED_GRADE);
 
 //Q5: I know you got the idea of variable names but I want it to be clear for anyone around the world.
 Student s = new Student();
